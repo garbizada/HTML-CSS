@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body> <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes
+        ou simplesmente aumente e diminua o tamanho do seu navegador.
+
+    </p>
+    <picture> 
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset=" imagens/foto-m.png" type="image/png">
+   
+<img src="imagens/foto-g.png" alt="Imagem flexivel">
+
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midias/musicateste.mp3" controls autoplay></audio>
+    <p>Mas pode ocorrer de usando essa tag &lt;audio src="" autoplay&gt; não saia áudio no navegador
+        , então podemos usar outra forma como: &lt;audio&gt; e dentro da dessa tag, &lt;source src=""midia/musicaem.mp3,ou midia/musicaem.ogg
+        é tmb midia/musicaem.wav . É pra cada source tem um src e um type diferente, sendo o de mp3(audio/mpeg), o OGG(audio/ogg) é em WAV(audio/wav)
+    </p>
+    <audio loop>
+        <source src="midias/musicateste.mp3" type="audio/mpeg">
+
+    </audio>
+    <p>Se mesmo assim não for, infelizemente seu navegador nao suporta áudio <a href="midias/musicateste.mp3" download="musicateste.mp3" type="audio/mpeg"></a>clique aqui para baixar o arquivo.</p>
+</body>
+</html>

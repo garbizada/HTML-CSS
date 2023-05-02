@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com vídeos em HTML5</title>
+</head> 
+<style>
+    body{background-color: black;}
+    h1{color:white;
+    text-align: left;}
+    p{font-family: Verdana;
+    color: aqua;}
+</style>
+
+<body> <hr>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo esta hospedado no meu proprio servidor.</p>
+    <video controls width="300" poster="imagens/introHTML.png">
+        <source src="midia/meuvideo.mp4" type="video/mp4">
+        <source src="midia/Meuvideo.webm" type="video/webm">
+        <p>seu navegador nao tem compatibilidade com reprodução de videos.</p>
+        
+
+
+    </video>
+    <h1>Inserindo Videos do youtube</h1>
+    <p>Este video esta sendo hospedado pelo youtube, ou seja nao sobrecarrega seu site.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg" title="YouTube video player" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+    encrypted-media; gyroscope; picture-in-picture;
+     web-share" allowfullscreen></iframe>
+</body>
+</html>
