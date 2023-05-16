@@ -17,6 +17,7 @@
     table{
       width: 500px;
       border-collapse: collapse;
+      position: relative;
       
     }
 
@@ -35,6 +36,16 @@
     thead, tfoot{
       background-color: gray;
       color: white;
+    }
+
+    thead > tr > th{
+      position: sticky;
+      top: 0;
+      background-color: #383838;
+    }
+
+    tbody > tr:nth-child(even){
+      background-color: lightgray;
     }
 
     .num{
