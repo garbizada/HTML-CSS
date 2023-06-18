@@ -1,0 +1,56 @@
+body{
+  background: #d2d2c1;
+  font: 16px Arial, Helvetica, sans-serif;
+
+}
+
+#principal{
+  width: 900px;
+  margin: auto;
+
+}
+
+#principal > img {
+  border-radius: 10px ;
+  margin: 0;
+}
+
+#menu{
+  background: #c5c5b2;
+  padding: 18px;
+  text-align: center;
+}
+
+a {
+  color: #4b566a;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  padding: 5px;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#conteudo {
+  background: #e8e8d9;
+  padding: 10px;
+  
+}
+
+#conteudo > h1 {
+  color: #828271;
+  font-size: 1.2em;
+}
+
+  .img_campanha {
+  border: 10px solid #c3c3ae;
+  
+  
+}
+
+#rodape {
+  text-align: center;
+}
